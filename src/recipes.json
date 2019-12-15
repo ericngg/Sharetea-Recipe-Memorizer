@@ -1,0 +1,1020 @@
+[
+    {
+        "id": "1",
+        "name": "Mango Green Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "180",
+            "sugar": "0.8 fructose",
+            "other": {
+                "ing1": "mango 1.0"
+            }
+        }
+    },
+    {
+        "id": "2",
+        "name": "Mango Green Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "230",
+            "sugar": "1.2 fructose",
+            "other": {
+                "ing1": "mango 1.5"
+            }
+        }
+    },
+    {
+        "id": "3",
+        "name": "Mango Green Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "280",
+            "sugar": "1.4 fructose",
+            "other": {
+                "ing1": "mango 1.7"
+            }
+        }
+    },
+    {
+        "id": "4",
+        "name": "Mango Green Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "330",
+            "sugar": "1.5 fructose",
+            "other": {
+                "ing1": "mango 1.8"
+            }
+        }
+    },
+    {
+        "id": "5",
+        "name": "Wintermelon Lemonade",
+        "tier": "1",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "N/A",
+            "other": {
+                "ing1": "lemon 0.6"
+            }
+        }
+    },
+    {
+        "id": "6",
+        "name": "Wintermelon Lemonade",
+        "tier": "2",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "N/A",
+            "other": {
+                "ing1": "lemon 0.8"
+            }
+        }
+    },
+    {
+        "id": "7",
+        "name": "Wintermelon Lemonade",
+        "tier": "3",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "N/A",
+            "other": {
+                "ing1": "lemon 1.0"
+            }
+        }
+    },
+    {
+        "id": "8",
+        "name": "Wintermelon Lemonade",
+        "tier": "4",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "N/A",
+            "other": {
+                "ing1": "lemon 1.1"
+            }
+        }
+    },
+    {
+        "id": "9",
+        "name": "Strawberry Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "150",
+            "sugar": "0.2 honey",
+            "other": {
+                "ing1": "strawberry 1.5"
+            }
+        }
+    },
+    {
+        "id": "10",
+        "name": "Strawberry Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "200",
+            "sugar": "0.3 honey",
+            "other": {
+                "ing1": "strawberry 1.8"
+            }
+        }
+    },
+    {
+        "id": "11",
+        "name": "Strawberry Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "270",
+            "sugar": "0.5 honey",
+            "other": {
+                "ing1": "strawberry 2.0"
+            }
+        }
+    },
+    {
+        "id": "12",
+        "name": "Strawberry Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "320",
+            "sugar": "0.6 honey",
+            "other": {
+                "ing1": "strawberry 2.0"
+            }
+        }
+    },
+    {
+        "id": "13",
+        "name": "Peach Tea with Aiyu Jelly",
+        "tier": "1",
+        "recipe": {
+            "tea": "150",
+            "sugar": "1.0 fructose",
+            "other": {
+                "ing1": "peach 1.0"
+            }
+        }
+    },
+    {
+        "id": "14",
+        "name": "Peach Tea with Aiyu Jelly",
+        "tier": "2",
+        "recipe": {
+            "tea": "180",
+            "sugar": "1.2 fructose",
+            "other": {
+                "ing1": "peach 1.2"
+            }
+        }
+    },
+    {
+        "id": "15",
+        "name": "Peach Tea with Aiyu Jelly",
+        "tier": "3",
+        "recipe": {
+            "tea": "200",
+            "sugar": "1.3 fructose",
+            "other": {
+                "ing1": "peach 1.3"
+            }
+        }
+    },
+    {
+        "id": "16",
+        "name": "Peach Tea with Aiyu Jelly",
+        "tier": "4",
+        "recipe": {
+            "tea": "280",
+            "sugar": "1.4 fructose",
+            "other": {
+                "ing1": "peach 1.4"
+            }
+        }
+    },
+    {
+        "id": "17",
+        "name": "Peach Kiwi Tea with Aiyu Jelly",
+        "tier": "1",
+        "recipe": {
+            "tea": "150",
+            "sugar": "0.4 fructose",
+            "other": {
+                "ing1": "kiwi 1.5",
+                "ing2": "peach 1.0"
+            }
+        }
+    },
+    {
+        "id": "18",
+        "name": "Peach Kiwi Tea with Aiyu Jelly",
+        "tier": "2",
+        "recipe": {
+            "tea": "180",
+            "sugar": "0.5 fructose",
+            "other": {
+                "ing1": "kiwi 1.8",
+                "ing2": "peach 1.2"
+            }
+        }
+    },{
+        "id": "19",
+        "name": "Peach Kiwi Tea with Aiyu Jelly",
+        "tier": "3",
+        "recipe": {
+            "tea": "220",
+            "sugar": "0.6 fructose",
+            "other": {
+                "ing1": "kiwi 2.0",
+                "ing2": "peach 1.5"
+            }
+        }
+    },{
+        "id": "20",
+        "name": "Peach Kiwi Tea with Aiyu Jelly",
+        "tier": "4",
+        "recipe": {
+            "tea": "280",
+            "sugar": "0.7 fructose",
+            "other": {
+                "ing1": "kiwi 2.2",
+                "ing2": "peach 1.8"
+            }
+        }
+    },
+    {
+        "id": "21",
+        "name": "Honey Lemonade with Aloe Vera",
+        "tier": "1",
+        "recipe": {
+            "tea": "150",
+            "sugar": "1.0 honey",
+            "other": {
+                "ing1": "lemon 0.6"
+            }
+        }
+    },
+    {
+        "id": "22",
+        "name": "Honey Lemonade with Aloe Vera",
+        "tier": "2",
+        "recipe": {
+            "tea": "200",
+            "sugar": "1.2 honey",
+            "other": {
+                "ing1": "lemon 0.8"
+            }
+        }
+    },
+    {
+        "id": "23",
+        "name": "Honey Lemonade with Aloe Vera",
+        "tier": "3",
+        "recipe": {
+            "tea": "250",
+            "sugar": "1.5 honey",
+            "other": {
+                "ing1": "lemon 1.0"
+            }
+        }
+    },
+    {
+        "id": "24",
+        "name": "Honey Lemonade with Aloe Vera",
+        "tier": "4",
+        "recipe": {
+            "tea": "300",
+            "sugar": "1.7 honey",
+            "other": {
+                "ing1": "lemon 1.1"
+            }
+        }
+    },
+    {
+        "id": "25",
+        "name": "Kiwi Fruit Tea with Aiyu Jelly",
+        "tier": "1",
+        "recipe": {
+            "tea": "150",
+            "sugar": "0.4 fructose",
+            "other": {
+                "ing1": "lemon 0.4",
+                "ing2": "orange 0.8"
+            }
+        }
+    },
+    {
+        "id": "26",
+        "name": "Kiwi Fruit Tea with Aiyu Jelly",
+        "tier": "2",
+        "recipe": {
+            "tea": "180",
+            "sugar": "0.5 fructose",
+            "other": {
+                "ing1": "lemon 0.5",
+                "ing2": "orange 1.0"
+            }
+        }
+    },
+    {
+        "id": "27",
+        "name": "Kiwi Fruit Tea with Aiyu Jelly",
+        "tier": "3",
+        "recipe": {
+            "tea": "220",
+            "sugar": "0.6 fructose",
+            "other": {
+                "ing1": "lemon 0.6",
+                "ing2": "orange 1.1"
+            }
+        }
+    },
+    {
+        "id": "28",
+        "name": "Kiwi Fruit Tea with Aiyu Jelly",
+        "tier": "4",
+        "recipe": {
+            "tea": "260",
+            "sugar": "0.7 fructose",
+            "other": {
+                "ing1": "lemon 0.7",
+                "ing2": "orange 1.2"
+            }
+        }
+    },
+    {
+        "id": "29",
+        "name": "Mango and Passionfruit Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "180",
+            "sugar": "0.5 fructose",
+            "other": {
+                "ing1": "mango 0.6",
+                "ing2": "passionfruit 0.8"
+            }
+        }
+    },
+    {
+        "id": "30",
+        "name": "Mango and Passionfruit Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "230",
+            "sugar": "0.8 fructose",
+            "other": {
+                "ing1": "mango 1.0",
+                "ing2": "passionfruit 1.2"
+            }
+        }
+    },
+    {
+        "id": "31",
+        "name": "Mango and Passionfruit Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "280",
+            "sugar": "1.0 fructose",
+            "other": {
+                "ing1": "mango 1.2",
+                "ing2": "passionfruit 1.4"
+            }
+        }
+    },
+    {
+        "id": "32",
+        "name": "Mango and Passionfruit Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "330",
+            "sugar": "1.2 fructose",
+            "other": {
+                "ing1": "mango 1.3",
+                "ing2": "passionfruit 1.6"
+            }
+        }
+    },
+    {
+        "id": "33",
+        "name": "Hawaii Fruit Tea with Aiyu Jelly",
+        "tier": "1",
+        "recipe": {
+            "tea": "150",
+            "sugar": "0.8 fructose",
+            "other": {
+                "ing1": "orange 0.8",
+                "ing2": "pineapple 1.0",
+                "ing3": "grapefruit 0.3"
+            }
+        }
+    },
+    {
+        "id": "34",
+        "name": "Hawaii Fruit Tea with Aiyu Jelly",
+        "tier": "2",
+        "recipe": {
+            "tea": "200",
+            "sugar": "1.2 fructose",
+            "other": {
+                "ing1": "orange 1.0",
+                "ing2": "pineapple 1.3",
+                "ing3": "grapefruit 0.5"
+            }
+        }
+    },
+    {
+        "id": "35",
+        "name": "Hawaii Fruit Tea with Aiyu Jelly",
+        "tier": "3",
+        "recipe": {
+            "tea": "250",
+            "sugar": "1.5 fructose",
+            "other": {
+                "ing1": "orange 1.2",
+                "ing2": "pineapple 1.3",
+                "ing3": "grapefruit 0.5"
+            }
+        }
+    },
+    {
+        "id": "36",
+        "name": "Hawaii Fruit Tea with Aiyu Jelly",
+        "tier": "4",
+        "recipe": {
+            "tea": "300",
+            "sugar": "1.6 fructose",
+            "other": {
+                "ing1": "orange 1.2",
+                "ing2": "pineapple 1.5",
+                "ing3": "grapefruit 0.5"
+            }
+        }
+    },
+    {
+        "id": "37",
+        "name": "Tropical Fruit Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "180",
+            "sugar": "0.6 fructose",
+            "other": {
+                "ing1": "orange 1.0",
+                "ing2": "passionfruit 0.8"
+            }
+        }
+    },
+    {
+        "id": "38",
+        "name": "Tropical Fruit Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "230",
+            "sugar": "0.8 fructose",
+            "other": {
+                "ing1": "orange 1.6",
+                "ing2": "passionfruit 1.2"
+            }
+        }
+    },
+    {
+        "id": "39",
+        "name": "Tropical Fruit Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "280",
+            "sugar": "1.0 fructose",
+            "other": {
+                "ing1": "orange 2.0",
+                "ing2": "passionfruit 1.4"
+            }
+        }
+    },
+    {
+        "id": "40",
+        "name": "Tropical Fruit Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "330",
+            "sugar": "1.2 fructose",
+            "other": {
+                "ing1": "orange 2.3",
+                "ing2": "passionfruit 1.6"
+            }
+        }
+    },
+    {
+        "id": "41",
+        "name": "Passionfruit, Orange, and Grapefruit Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "180",
+            "sugar": "0.8 fructose",
+            "other": {
+                "ing1": "orange 1.3",
+                "ing2": "grapefruit 0.8",
+                "ing3": "passionfruit 0.3"
+            }
+        }
+    },
+    {
+        "id": "42",
+        "name": "Passionfruit, Orange, and Grapefruit Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "230",
+            "sugar": "1.0 fructose",
+            "other": {
+                "ing1": "orange 1.5",
+                "ing2": "grapefruit 1.0",
+                "ing3": "passionfruit 0.5"
+            }
+        }
+    },
+    {
+        "id": "43",
+        "name": "Passionfruit, Orange, and Grapefruit Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "260",
+            "sugar": "0.8 fructose",
+            "other": {
+                "ing1": "orange 1.7",
+                "ing2": "grapefruit 1.1",
+                "ing3": "passionfruit 0.7"
+            }
+        }
+    },
+    {
+        "id": "44",
+        "name": "Passionfruit, Orange, and Grapefruit Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "300",
+            "sugar": "0.8 fructose",
+            "other": {
+                "ing1": "orange 1.7",
+                "ing2": "grapefruit 1.2",
+                "ing3": "passionfruit 0.7"
+            }
+        }
+    },
+    {
+        "id": "45",
+        "name": "Passion Fruit Green Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "180",
+            "sugar": "0.8 fructose",
+            "other": {
+                "ing1": "passionfruit 1.3"
+            }
+        }
+    },
+    {
+        "id": "46",
+        "name": "Passion Fruit Green Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "230",
+            "sugar": "1.0 fructose",
+            "other": {
+                "ing1": "passionfruit 1.7"
+            }
+        }
+    },
+    {
+        "id": "47",
+        "name": "Passion Fruit Green Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "280",
+            "sugar": "1.1 fructose",
+            "other": {
+                "ing1": "passionfruit 1.8"
+            }
+        }
+    },
+    {
+        "id": "48",
+        "name": "Passion Fruit Green Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "320",
+            "sugar": "1.2 fructose",
+            "other": {
+                "ing1": "passionfruit 1.9"
+            }
+        }
+    },
+    {
+        "id": "49",
+        "name": "Black Tea with Fresh Milk (Cold Black Tea)",
+        "tier": "1",
+        "recipe": {
+            "tea": "150",
+            "sugar": "1.2 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "50",
+        "name": "Black Tea with Fresh Milk (Cold Black Tea)",
+        "tier": "2",
+        "recipe": {
+            "tea": "200",
+            "sugar": "1.7 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "51",
+        "name": "Black Tea with Fresh Milk (Cold Black Tea)",
+        "tier": "3",
+        "recipe": {
+            "tea": "300",
+            "sugar": "1.8 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "52",
+        "name": "Black Tea with Fresh Milk (Cold Black Tea)",
+        "tier": "4",
+        "recipe": {
+            "tea": "400",
+            "sugar": "1.9 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "53",
+        "name": "Black / Green / Oolong Tea with Fresh Milk",
+        "tier": "1",
+        "recipe": {
+            "tea": "120",
+            "sugar": "1.2 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "54",
+        "name": "Black / Green / Oolong Tea with Fresh Milk",
+        "tier": "2",
+        "recipe": {
+            "tea": "180",
+            "sugar": "1.5 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "55",
+        "name": "Black / Green / Oolong Tea with Fresh Milk",
+        "tier": "3",
+        "recipe": {
+            "tea": "230",
+            "sugar": "1.7 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "56",
+        "name": "Black / Green / Oolong Tea with Fresh Milk",
+        "tier": "4",
+        "recipe": {
+            "tea": "280",
+            "sugar": "1.8 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "57",
+        "name": "Cocoa Lover",
+        "tier": "1",
+        "recipe": {
+            "tea": "100",
+            "sugar": "0.3 fructose",
+            "other": {
+                "ing1": "cocoa 1.5",
+                "ing2": "creamer 0.7"
+            }
+        }
+    },
+    {
+        "id": "58",
+        "name": "Cocoa Lover",
+        "tier": "2",
+        "recipe": {
+            "tea": "150",
+            "sugar": "0.5 fructose",
+            "other": {
+                "ing1": "cocoa 2.0",
+                "ing2": "creamer 1.0"
+            }
+        }
+    },
+    {
+        "id": "59",
+        "name": "Cocoa Lover",
+        "tier": "3",
+        "recipe": {
+            "tea": "200",
+            "sugar": "0.6 fructose",
+            "other": {
+                "ing1": "cocoa 2.2",
+                "ing2": "creamer 1.3"
+            }
+        }
+    },
+    {
+        "id": "60",
+        "name": "Cocoa Lover",
+        "tier": "4",
+        "recipe": {
+            "tea": "270",
+            "sugar": "0.6 fructose",
+            "other": {
+                "ing1": "cocoa 2.4",
+                "ing2": "creamer 1.5"
+            }
+        }
+    },
+    {
+        "id": "61",
+        "name": "Fresh Milk Family",
+        "tier": "1",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "0.3 brown",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "62",
+        "name": "Fresh Milk Family",
+        "tier": "2",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "0.5 brown",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "63",
+        "name": "Fresh Milk Family",
+        "tier": "3",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "0.6 brown",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "64",
+        "name": "Fresh Milk Family",
+        "tier": "4",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "0.6 brown",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "65",
+        "name": "Matcha with Fresh Milk",
+        "tier": "1",
+        "recipe": {
+            "tea": "100",
+            "sugar": "0.7 fructose",
+            "other": {
+                "ing1": "matcha 1.0"
+            }
+        }
+    },
+    {
+        "id": "66",
+        "name": "Matcha with Fresh Milk",
+        "tier": "2",
+        "recipe": {
+            "tea": "150",
+            "sugar": "1.0 fructose",
+            "other": {
+                "ing1": "matcha 1.2"
+            }
+        }
+    },
+    {
+        "id": "67",
+        "name": "Matcha with Fresh Milk",
+        "tier": "3",
+        "recipe": {
+            "tea": "200",
+            "sugar": "1.2 fructose",
+            "other": {
+                "ing1": "matcha 1.3"
+            }
+        }
+    },
+    {
+        "id": "68",
+        "name": "Matcha with Fresh Milk",
+        "tier": "4",
+        "recipe": {
+            "tea": "250",
+            "sugar": "1.3 fructose",
+            "other": {
+                "ing1": "matcha 1.5"
+            }
+        }
+    },
+    {
+        "id": "69",
+        "name": "Boba with Fresh Milk",
+        "tier": "1",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "0.3 brown",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "70",
+        "name": "Boba with Fresh Milk",
+        "tier": "2",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "0.5 brown",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "71",
+        "name": "Boba with Fresh Milk",
+        "tier": "3",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "0.6 brown",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "72",
+        "name": "Boba with Fresh Milk",
+        "tier": "4",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "0.6 brown",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "73",
+        "name": "Black / Green / Oolong Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "200",
+            "sugar": "1.2 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "74",
+        "name": "Black / Green / Oolong Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "250",
+            "sugar": "1.5 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "75",
+        "name": "Black / Green / Oolong Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "300",
+            "sugar": "1.7 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "76",
+        "name": "Black / Green / Oolong Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "350",
+            "sugar": "1.8 fructose",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "77",
+        "name": "Honey Black / Green / Oolong Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "200",
+            "sugar": "1.3 honey",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "78",
+        "name": "Honey Black / Green / Oolong Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "250",
+            "sugar": "1.8 honey",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "79",
+        "name": "Honey Black / Green / Oolong Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "300",
+            "sugar": "2.2 honey",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "80",
+        "name": "Honey Black / Green / Oolong Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "350",
+            "sugar": "2.3 honey",
+            "other": {
+            }
+        }
+    },
+    {
+        "id": "81",
+        "name": "Ginger Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "200",
+            "sugar": "N/A",
+            "other": {
+                "ing1": "ginger 1.8"
+            }
+        }
+    },
+    {
+        "id": "82",
+        "name": "Ginger Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "250",
+            "sugar": "N/A",
+            "other": {
+                "ing1": "ginger 2.0"
+            }
+        }
+    },
+    {
+        "id": "83",
+        "name": "Ginger Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "300",
+            "sugar": "N/A",
+            "other": {
+                "ing1": "ginger 2.2"
+            }
+        }
+    },
+    {
+        "id": "84",
+        "name": "Ginger Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "350",
+            "sugar": "N/A",
+            "other": {
+                "ing1": "ginger 2.3"
+            }
+        }
+    },
+]

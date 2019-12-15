@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "name": "Mango Green Tea",
+        "tier": "1",
+        "recipe": {
+            "tea": "180",
+            "sugar": "0.8 fructose",
+            "ing1": "mango",
+            "val1": "1.0",
+            "ing2": "N/A",
+            "val2": "0",
+            "ing3": "N/A",
+            "val3": "0"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Mango Green Tea",
+        "tier": "2",
+        "recipe": {
+            "tea": "230",
+            "sugar": "1.2 fructose",
+            "ing1": "mango",
+            "val1": "1.5",
+            "ing2": "N/A",
+            "val2": "0",
+            "ing3": "N/A",
+            "val3": "0"
+        }
+    },
+    {
+        "id": "3",
+        "name": "Mango Green Tea",
+        "tier": "3",
+        "recipe": {
+            "tea": "280",
+            "sugar": "1.4 fructose",
+            "ing1": "mango",
+            "val1": "1.7",
+            "ing2": "N/A",
+            "val2": "0",
+            "ing3": "N/A",
+            "val3": "0"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Mango Green Tea",
+        "tier": "4",
+        "recipe": {
+            "tea": "330",
+            "sugar": "1.5 fructose",
+            "ing1": "mango",
+            "val1": "1.8",
+            "ing2": "N/A",
+            "val2": "0",
+            "ing3": "N/A",
+            "val3": "0"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Wintermelon Lemonade",
+        "tier": "1",
+        "recipe": {
+            "tea": "N/A",
+            "sugar": "N/A",
+            "ing1": "lemon",
+            "val1": "0.6",
+            "ing2": "N/A",
+            "val2": "0",
+            "ing3": "N/A",
+            "val3": "0"
+        }
+    }
+]
