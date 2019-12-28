@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../App.css';
-import Questions from "./QuizCard/Questions"
+import './quiz.css';
+import Questions from "./Questions";
 
 class Quiz extends Component {
 
@@ -8,7 +8,7 @@ class Quiz extends Component {
 		return (
 			<div className="container">
 				<Questions recipe={this.props.recipe[0]} />
-			</div>
+			</ div>
 		);
 	}
 }

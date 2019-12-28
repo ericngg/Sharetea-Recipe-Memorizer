@@ -8,6 +8,23 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-color: #696969 !important;
 }
 
+body {
+  background-image: url(./img/background2.jpg);
+  background-size: 100%;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.logo {
+  background-image: url(/src/img/logo.png);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}

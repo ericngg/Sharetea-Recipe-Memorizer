@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import './quiz.css';
 
-class IngredientInput extends Component {
+class SugarInput extends Component {
     input() {
         if (this.props.val === "N/A") {
             return (
-                <div className="hideInput">
-                    <p className="ingrLabel">{this.props.val}</p>
-                    <input className="ingredient disabled" disabled={true} />
-                </div>
+                <>
+                    <div>
+                        <p className="ingrLabel">{this.props.val}</p>
+                        <input className="ingredient" type="number" step="1" min="0" disabled={true} />
+                    </div>
+                </>
             );
         } else {
             return (
                 <>
                     <div>
                         <p className="ingrLabel">{this.props.val}</p>
-                        <input className="ingredient" type="number" step="0.1" min="0" placeholder="0.0" />
+                        <input className="ingredient" type="number" step="1" min="0" placeholder="0" />
                     </div>
                 </>
             );
@@ -27,9 +29,8 @@ class IngredientInput extends Component {
             <>
                 {this.input()}
             </>
-
         );
     }
 }
 
-export default IngredientInput;
+export default SugarInput;

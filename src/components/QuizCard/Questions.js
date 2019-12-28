@@ -1,18 +1,39 @@
 import React from 'react';
 import "./quiz.css";
 import IngredientInput from "./IngredientInput";
+import TeaInput from "./TeaInput";
+import SugarInput from "./SugarInput";
+import { Container, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
+
 
 const Questions = (props) => (
     <div className="quizContainer">
+        <FontAwesomeIcon icon={faQuestionCircle} size="3x" className="hint" />
         <div className="questionContent">
-            <h1>Hello</h1>
+            <p className="question">What is the recipe for <strong>{props.recipe.name}</strong>?</p>
         </div>
         <div className="answerContent">
-            <div className="ingredientInput">
-                <IngredientInput val={props.recipe.recipe.ing1} />
-                <IngredientInput val={props.recipe.recipe.ing2} />
-                <IngredientInput val={props.recipe.recipe.ing3} />
-            </div>
+            <Container fluid={true} className="ingredientInput">
+                <Row>
+                    <Col>
+                        <TeaInput val={props.recipe.recipe.tea} />
+                    </Col>
+                    <Col>
+                        <SugarInput val={props.recipe.recipe.sugar} />
+                    </Col>
+                    <Col>
+                        <IngredientInput val={props.recipe.recipe.ing1} />
+                    </Col>
+                    <Col>
+                        <IngredientInput val={props.recipe.recipe.ing2} />
+                    </Col>
+                    <Col>
+                        <IngredientInput val={props.recipe.recipe.ing3} />
+                    </Col>
+                </Row>
+            </Container>
             <button id="submit">Submit</button>
         </div>
     </div>

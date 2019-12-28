@@ -1,3 +1,5 @@
+/* TOP AREA AND BUTTOM AREA */
+
 .quizContainer {
     display: flex;
     flex-direction: column;
@@ -8,59 +10,97 @@
     height: 75vh;
     width: 75vw;
     background-color: white;
-    
-  }
+    box-shadow: 0 0 15px #666666;
+}
   
-  .questionContent {
+.questionContent {
     width: 100%;
     height: 50%;
-  
-  }
-  
-  .answerContent {
-    border: 1px solid black;
-    width: 100%;
-    height: 50%;
-    display: inline-block;
     text-align: center;
-  }
+    padding-top: 125px;
+}
 
-  label {
-      font-size: 30px;
-  }
+.question {
+    font-size: 50px;
+}
 
-  .ingredient {
-      margin-left: 15px;
-      margin-right: 50px;
-      width: 100px;
-      height: 100px;
-      border: 2px solid black;
-  }
+strong {
+    text-decoration: underline;
+}
   
-  .ingredient[type=number] {
-      font-size: 40px;
-  }
+.answerContent {
+    border-top: 1px solid black;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
 
-  .ingredientInput {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-  }
 
-  #submit {
-      border: none;
-      background-color: #ff6666;
-      color: white;
-      width: 100px;
-      height: 50px;
-  }
 
-  #submit:hover {
-      background-color: #ff4c4c;
-      transition: ease-in-out 0.5s;
-  }
+/* INPUT BOXES */
 
-  .hidden {
-      display: none;
-  }
+.ingrLabel {
+    font-size: 30px;
+}
+
+.ingredient {
+    width: 90px;
+    height: 80px;
+    border: 2px solid black;
+}
+  
+.ingredient[type=number] {
+    font-size: 30px;
+    text-align: center;
+}
+
+.ingredientInput {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* HIDDEN INPUT BOXES */
+
+.hideInput {
+    color: white;
+}
+
+.disabled {
+    background-color: white;
+    border: none;
+}
+
+/* SUBMIT BUTTON */
+
+#submit {
+    border: none;
+    background-color: #ff4d4d;
+    border: 1px solid #ff1a1a;
+    color: white;
+    width: 200px;
+    height: 100px;
+    font-size: 35px;
+}
+
+#submit:hover {
+    color: white;
+    font-weight: 500;
+    background-color: #ff1a1a;
+    border: 1px solid #ff1a1a;
+    transition: ease-in-out 0.5s;
+}
+
+/* HINT BUTTON */
+
+.hint {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #6666ff;
+}
+
+.hint:hover {
+    color: #0000ff;
+    transition: ease-in-out 0.5s;
+}

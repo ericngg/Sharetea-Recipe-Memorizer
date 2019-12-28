@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Quiz from "./components/Quiz.js";
+import Quiz from "./components/QuizCard/Quiz.js";
+import Menu from "./components/MenuCard/Menu.js";
+import Logo from "./img/logo.png";
 import test from "./test.json";
 
 class App extends Component {
@@ -14,7 +16,12 @@ class App extends Component {
 
 	render() {
 		return (
-			<Quiz recipe={this.state.recipe}/>
+			<>
+
+				<Menu />
+				{/* } <Quiz recipe={this.state.recipe} /> { */}
+				<img src={Logo} alt ="logo" className="logo" />
+			</>
 		);
 	}
 }
