@@ -5,7 +5,7 @@ class IngredientInput extends Component {
     input() {
         if (this.props.val === "N/A") {
             return (
-                <div className="hideInput">
+                <div className="hide">
                     <p className="ingrLabel">{this.props.val}</p>
                     <input className="ingredient disabled" disabled={true} />
                 </div>

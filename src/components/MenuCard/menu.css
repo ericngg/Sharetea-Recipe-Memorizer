@@ -28,17 +28,21 @@
    margin-top: 10%;
 }
 
-.menuOptions {
+.menuSettings {
     width: 200px;
     height: 120px;
-    color: white;
+    color: black;
     font-size: 30px;
-    background-color: lightcoral;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
 }
 
-.menuOptions:hover {
-    background-color: red;
+.menuSettings:hover {
+    background-color: #ff1a1a;
+    color: white;
     transition: .5s ease-in-out;
+    border: none;
 }
 
 .titleRed {

@@ -1,0 +1,44 @@
+.optionsContainer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 75vh;
+    width: 75vw;
+    background-color: white;
+    box-shadow: 0 0 15px #666666;
+}
+
+.optionsTitle {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* BUTTON LABELS */
+
+.settingInput {
+    float: left;
+}
+
+.settingLabel {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+/* BACK BUTTON */
+
+.back {
+    display: flex;
+    color: black;
+}
+
+.back:hover {
+    color: #ff1a1a;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}

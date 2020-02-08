@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./menu.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 class Menu extends Component {
     render() {
@@ -13,13 +14,13 @@ class Menu extends Component {
                     <div className="buttonContent">
                         <Row>
                             <Col className="wrapper">
-                                <button className="menuOptions">Start</button>
+                                <Link to="/quiz"><button className="menuSettings" onClick={() => {this.props.handleCurrent("/quiz")}}>Start</button></Link>
                             </Col>
                             <Col className="wrapper">
-                                <button className="menuOptions">Options</button>
+                                <Link to="/settings"><button className="menuSettings" onClick={() => {this.props.handleCurrent("/")}}>Settings</button></Link>
                             </Col>
                             <Col className="wrapper">
-                                <button className="menuOptions">About</button>
+                                <button className="menuSettings">About</button>
                             </Col>
                         </Row>
                     </div>

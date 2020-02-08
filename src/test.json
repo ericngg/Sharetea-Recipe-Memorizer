@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "name": "Mango Green Tea",
+        "name": "Mango Green Tea 1",
         "tier": "1",
         "recipe": {
             "tea": "180",
@@ -17,7 +17,7 @@
     },
     {
         "id": "2",
-        "name": "Mango Green Tea",
+        "name": "Mango Green Tea 2",
         "tier": "2",
         "recipe": {
             "tea": "230",
@@ -33,7 +33,7 @@
     },
     {
         "id": "3",
-        "name": "Mango Green Tea",
+        "name": "Mango Green Tea 3",
         "tier": "3",
         "recipe": {
             "tea": "280",
@@ -49,7 +49,7 @@
     },
     {
         "id": "4",
-        "name": "Mango Green Tea",
+        "name": "Mango Green Tea 4",
         "tier": "4",
         "recipe": {
             "tea": "330",
@@ -73,10 +73,10 @@
             "sugarVal": "N/A",
             "ing1": "lemon",
             "val1": "0.6",
-            "ing2": "N/A",
-            "val2": "0",
-            "ing3": "N/A",
-            "val3": "0"
+            "ing2": "orange",
+            "val2": "1.0",
+            "ing3": "apples",
+            "val3": "7.2"
         }
     }
 ]
