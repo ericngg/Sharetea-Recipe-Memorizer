@@ -16,12 +16,8 @@ class App extends Component {
 		for (var i = 0; i < 5; i++) {
 			seq.push(i);
 		}
-		
-		console.log(seq);
 
 		this.handleShuffle(seq);
-
-		console.log(seq);
 
 		this.state = {
 			recipe: test, // recipes
@@ -31,9 +27,11 @@ class App extends Component {
 			index: 0
 		}
 
+
 		this.handleChange = this.handleChange.bind(this);
 		this.handleCurrent = this.handleCurrent.bind(this);
 		this.handleShuffle = this.handleShuffle.bind(this);
+		this.shuffle = this.shuffle.bind(this);
 	}
 
 	// RANDOM SUGAR LEVEL CHECK
@@ -51,7 +49,9 @@ class App extends Component {
 	}
 
 	handleShuffle(seq) {
-		var current = seq.length;
+		let newSequence = seq;
+		console.log("current: " + newSequence);
+		var current = newSequence.length;
 		var temp;
 		var random;
 
@@ -59,10 +59,17 @@ class App extends Component {
 			random = Math.floor(Math.random() * current);
 			current -= 1;
 
-			temp = seq[current];
-			seq[current] = seq[random];
-			seq[random] = temp;
+			temp = newSequence[current];
+			newSequence[current] = newSequence[random];
+			newSequence[random] = temp;
 		}
+
+		console.log("new: " + newSequence);
+	}
+
+	shuffle() {
+		this.handleShuffle(this.state.sequence);
+		console.log("Q: " + this.state.sequence);
 	}
 
 	render() {
@@ -72,7 +79,7 @@ class App extends Component {
 					<BrowserRouter>
 						<Switch>
 							<Route exact path="/" render={(props) => <Menu handleCurrent={this.handleCurrent} /* back button change current */ />} />
-							<Route exact path="/quiz" render={(props) => <Quiz recipe={this.state.recipe} index={this.state.sequence[this.state.index]} />} />
+							<Route exact path="/quiz" render={(props) => <Quiz recipe={this.state.recipe} index={this.state.sequence[this.state.index]} shuffle={this.shuffle} />} />
 							<Route exact path="/settings" render={(props) => <Settings 
 								change={this.handleChange} // setting button
 								checked={this.state.checked} // setting check
