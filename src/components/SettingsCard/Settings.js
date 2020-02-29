@@ -19,6 +19,10 @@ class Settings extends Component {
                         <Switch className="settingInput" onChange={this.props.change} checked={this.props.checked} />
                         <p className="settingInput settingLabel">Random Sugar Levels</p>
                     </div>
+                    <div>
+                        <Switch className="settingInput" onChange={this.props.shuffleChange} checked={this.props.shuffle} />
+                        <p className="settingInput settingLabel">Shuffle</p>
+                    </div>
                 </div>
             </ div>
         );

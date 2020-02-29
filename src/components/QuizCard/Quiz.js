@@ -7,7 +7,7 @@ class Quiz extends Component {
 	render() {
 		return (
 			<div className="container">
-				<Questions recipe={this.props.recipe[this.props.index]} shuffle={this.props.shuffle} />
+				<Questions recipe={this.props.recipe} shuffle={this.props.shuffle} initial={this.props.initial} />
 			</div>
 		);
 	}

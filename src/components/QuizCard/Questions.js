@@ -16,19 +16,52 @@ class Questions extends Component {
 
 		for (var i = 0; i < 5; i++) {
 			seq.push(i);
-		}
+        }
+
+        if (this.props.shuffle) {
+            this.initialShuffle(seq);
+        }
 
 		this.state = {
-			current: this.props.recipe,
+            recipe: this.props.recipe,
 			sequence: seq, // order
-			index: 0
-		}
+            index: 0
+        }
+        console.log(this.state.sequence);
 
         this.handleShuffle = this.handleShuffle.bind(this);
         this.shuffle = this.shuffle.bind(this);
+        
+        this.setState({
+            current: this.state.recipe[this.state.sequence[this.state.index]]
+        })
     }
     
     handleShuffle(seq) {
+		console.log("current: " + seq);
+		var current = seq.length;
+		var temp;
+		var random;
+
+		while (0 !== current) {
+			random = Math.floor(Math.random() * current);
+			current -= 1;
+
+			temp = seq[current];
+			seq[current] = seq[random];
+			seq[random] = temp;
+		}
+
+        console.log("new: " + seq);
+    }
+    
+    shuffle() {
+        this.handleShuffle(this.state.sequence);
+        console.log("seq2:" + this.state.sequence);
+    }
+
+    // Shuffles once if shuffle is true
+    initialShuffle(seq) {
 		let newSequence = seq;
 		console.log("current: " + newSequence);
 		var current = newSequence.length;
@@ -42,16 +75,12 @@ class Questions extends Component {
 			temp = newSequence[current];
 			newSequence[current] = newSequence[random];
 			newSequence[random] = temp;
-		}
+        }
 
-        console.log("new: " + newSequence);
+        this.setState({
+            sequence: newSequence
+        })
     }
-    
-    shuffle() {
-        this.handleShuffle(this.state.sequence);
-        console.log("seq2:" + this.state.sequence);
-    }
-
 
 	render() {
 		return (
@@ -64,25 +93,25 @@ class Questions extends Component {
             </div>
         </div>
         <div className="questionContent">
-            <p className="question">What is the recipe for <strong>{this.state.current.name}</strong>?</p>
+            <p className="question">What is the recipe for <strong>{this.state.recipe[this.state.sequence[this.state.index]].name}</strong>?</p>
         </div>
         <div className="answerContent">
             <Container fluid={true} className="ingredientInput">
                 <Row>
                     <Col>
-                        <TeaInput val={this.props.recipe.recipe.tea} />
+                        <TeaInput val={this.state.recipe[this.state.index].recipe.tea} />
                     </Col>
                     <Col>
-                        <SugarInput val={this.props.recipe.recipe.sugar} />
+                        <SugarInput val={this.state.recipe[this.state.index].recipe.sugar} />
                     </Col>
                     <Col>
-                        <IngredientInput val={this.props.recipe.recipe.ing1} />
+                        <IngredientInput val={this.state.recipe[this.state.index].recipe.ing1} />
                     </Col>
                     <Col>
-                        <IngredientInput val={this.props.recipe.recipe.ing2} />
+                        <IngredientInput val={this.state.recipe[this.state.index].recipe.ing2} />
                     </Col>
                     <Col>
-                        <IngredientInput val={this.props.recipe.recipe.ing3} />
+                        <IngredientInput val={this.state.recipe[this.state.index].recipe.ing3} />
                     </Col>
                 </Row>
             </Container>
