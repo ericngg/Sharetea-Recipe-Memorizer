@@ -6,6 +6,7 @@ import Settings from "./components/SettingsCard/Settings.js";
 import Logo from "./img/logo.png";
 import test from "./test.json";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import Modal from "react-bootstrap/Modal";
 
 class App extends Component {
 	constructor(props) {
